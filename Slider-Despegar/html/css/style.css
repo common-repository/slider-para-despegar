@@ -1,0 +1,173 @@
+.text-center{
+	text-align: center;
+}
+
+#despegar-plugin{
+	max-width: 300px;
+}
+
+#background-plane{
+	margin: 10px;
+	padding: 10px;
+}
+
+
+body{
+	background: #ffffff; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#ffffff 40%, #f1f1f1); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ffffff 40%, #f1f1f1); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ffffff 40%, #f1f1f1); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ffffff 40%, #f1f1f1); /* Standard syntax */
+}
+
+#first-container{
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	background-position: center top;	
+}
+
+.ptop{
+	padding-top: 10px;
+}
+
+.blue{
+	color: #0c51a1;
+}
+
+.blue:hover{
+	color: #223f8a;
+}
+
+.break-word{
+	word-break: break-all;
+}
+
+.f-left{
+	float: left;
+}
+
+.m-left{
+	margin-left: 20px;
+}
+
+.mtop{
+	margin-top: 20px;
+}
+
+.mbottom{
+	margin-bottom: 20px;
+}
+
+.ptop13{
+	padding-top: 13px;
+}
+
+.pbottom{
+	padding-bottom: 50px;
+}
+
+.pbottom-small{
+	padding-bottom: 25px;
+}
+
+.container-disapear{
+	overflow: hidden;
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	transition: 2s;
+}
+
+.container-off{
+	opacity: 0;
+	max-height: 0px;
+}
+
+.container-on{
+	opacity: 1;
+	max-height: 1000px;
+}
+
+.btn-despegar{
+	color: white;
+	background-color: #0c51a1;
+}
+
+.btn-despegar:hover{
+	background-color: #223f8a;
+}
+
+.bootstrap-switch-primary{
+	background-color: #0c51a1 !important;
+	color: white !important;
+}
+
+.icon-checked{
+	color: #0c51a1 !important;
+}
+
+.nav-tabs>li>a{
+	color: #0c51a1 !important;
+}
+
+.bootstrap-switch-primary~.bootstrap-switch-handle-off:before{
+	background-color: #223f8a !important;
+}
+
+#box-container{
+	height: 350px;
+	margin-bottom: 100px;
+}
+
+#wpfooter{
+	position: inherit !important;
+	float: left;
+}
+
+.tab-content{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}
+
+.dashed-b{
+	border: 3px dashed #ddd;
+}
+
+#short-code{
+	background-color: #ddd;
+	padding: 10px 40px;
+	border: 2px dashed;
+	font-size: 25px;
+}
+
+.text-sc{
+	padding: 10px;
+}
+
+.text-sc p{
+	line-height: 1;
+	margin: 0px;
+}
+
+.ui-pnotify-title{
+	font-size: 16px;
+}
+
+.ui-pnotify-text{
+	font-size: 14px;
+}
+
+.alert h4 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.ui-pnotify-text{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.ui-pnotify-container{
+	padding: 8px !important;
+}
